@@ -6,4 +6,4 @@ install:
 - curl -o Unity.pkg https://download.unity3d.com/download_unity/05307cddbb71/MacEditorInstaller/Unity-2017.4.17f1.pkg
 - sudo installer -dumplog -package Unity.pkg -target /
 script:
-- /Applications/Unity/Unity.app/Contents/MacOS/Unity -batchmode -nographics -silent-crashes -projectPath ./stroke/ -runEditorTests -quit
+- /Applications/Unity/Unity.app/Contents/MacOS/Unity -batchmode -nographics -projectPath ./stroke/ -runEditorTests -quit
