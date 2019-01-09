@@ -3,7 +3,7 @@ os: osx
 osx_image: xcode10.1
 if: type != pull_request
 install:
-- curl -o Unity.pkg https://download.unity3d.com/download_unity/05307cddbb71/MacEditorInstaller/Unity-2017.4.17f1.pkg
+- curl -o Unity.pkg https://download.unity3d.com/download_unity/de9eb5ca33c5/MacEditorInstaller/Unity-2017.4.7f1.pkg
 - sudo installer -dumplog -package Unity.pkg -target /
 script:
 - /Applications/Unity/Unity.app/Contents/MacOS/Unity -batchmode -nographics -projectPath ./stroke/ -runEditorTests -quit
