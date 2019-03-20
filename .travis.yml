@@ -1,6 +1,6 @@
 language: generic
 os: osx
-osx_image: xcode10.1
+osx_image: xcode10.2
 if: type != pull_request
 install:
 - curl -o Unity.pkg https://download.unity3d.com/download_unity/de9eb5ca33c5/MacEditorInstaller/Unity-2017.4.7f1.pkg
